@@ -31,7 +31,7 @@ namespace Tests
             Thread.Sleep(3000);
             var url = this.driver.Url;
             var title = driver.Title;
-            Assert.AreEqual("https://www.gograph.com/", url);
+            Assert.AreEqual("https://www.gograph.com", url);
             Assert.AreEqual("Great ClipArt, Illustrations, and Vectors at Low Prices - GoGraph", title, "Title doesnt match");
         }
 
